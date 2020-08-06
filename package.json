@@ -1,0 +1,11 @@
+{
+  "name": "rustup-npm",
+  "version": "0.1.0",
+  "description": "Use rust lang in nodejs hosts. This package helps setup entire rust solution in user space. No root required. Best for limited resources.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no test' || exit 0"
+  },
+  "author": "jerzyadamowski@outlook.com",
+  "license": "ISC"
+}
