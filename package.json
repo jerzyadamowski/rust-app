@@ -1,11 +1,8 @@
 {
-  "name": "rustup-npm",
+  "bin": "bin/rustup-wrapper.sh",
+  "name": "rustup",
+  "author": "Jerzy Adamowski",
+  "description": "Run rustup from node. Helpers for developing RUST in node friendly environment.",
   "version": "0.1.0",
-  "description": "Use rust lang in nodejs hosts. This package helps setup entire rust solution in user space. No root required. Best for limited resources.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo 'no test' || exit 0"
-  },
-  "author": "jerzyadamowski@outlook.com",
-  "license": "ISC"
+  "license": "MIT"
 }
