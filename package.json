@@ -2,7 +2,7 @@
   "bin": "bin/rustup-wrapper.sh",
   "name": "rustup-init",
   "author": "Jerzy Adamowski",
-  "description": "Run rustup from node. Helpers for developing RUST in node friendly environment.",
-  "version": "0.1.0",
+  "description": "Run rustup-init from node. Set up your RUST. This is helper for developing RUST in NODE friendly environment.",
+  "version": "0.2.0",
   "license": "MIT"
 }

@@ -4,3 +4,8 @@ run:
 ```
 npx rustup-init
 ```
+
+help page:
+```
+npx rustup-init --help
+```
