@@ -1,6 +1,6 @@
 {
   "bin": "bin/rustup-wrapper.sh",
-  "name": "rustup",
+  "name": "rustup-init",
   "author": "Jerzy Adamowski",
   "description": "Run rustup from node. Helpers for developing RUST in node friendly environment.",
   "version": "0.1.0",

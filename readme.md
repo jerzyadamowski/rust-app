@@ -1,6 +1,6 @@
 # rustup
-## Run rustup from node. Helpers for developing RUST in node friendly environment.
+## Run rustup-init from node. Set up your RUST. This is helper for developing RUST in NODE friendly environment.
 run:
 ```
-npx rustup
+npx rustup-init
 ```
