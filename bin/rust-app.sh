@@ -6,12 +6,12 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 do_rustup_init() {
-    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y "${@:2:$#}"
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y "$@"
 }
 
-do_any_cmd(param) {
+do_any_cmd() {
     echo param
-    source ~/.profile && "$param"
+    source ~/.profile && "$@"
 }
 
 do_show_help() {
@@ -27,7 +27,7 @@ do_show_help() {
 
 case ${@:1:1} in
 	rustup-init)
-		do_rustup_init ;;
+		do_rustup_init "${@:2:$#}";;
 	"")
 		do_show_help ;;
 	*)
