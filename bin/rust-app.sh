@@ -9,8 +9,9 @@ do_rustup_init() {
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y "${@:2:$#}"
 }
 
-do_any_cmd() {
-    source ~/.profile && "${@:2:$#}"
+do_any_cmd(param) {
+    echo param
+    source ~/.profile && "$param"
 }
 
 do_show_help() {
@@ -30,7 +31,7 @@ case ${@:1:1} in
 	"")
 		do_show_help ;;
 	*)
-		do_any_cmd ;;
+		do_any_cmd $@;;
 esac
 
 
