@@ -1,3 +1,3 @@
 .*
 *
-!bin/rustup-wrapper.sh
+!bin/rust-app.sh
