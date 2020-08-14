@@ -3,6 +3,6 @@
   "name": "rust-app",
   "author": "Jerzy Adamowski",
   "description": "Run rust-app from node. Set up your RUST environment. Call all rust tool from single script. This helper may allow use RUST in Node hosting",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "license": "MIT"
 }
