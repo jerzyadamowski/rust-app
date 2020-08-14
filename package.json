@@ -3,6 +3,17 @@
   "name": "rust-app",
   "author": "Jerzy Adamowski",
   "description": "Run rust-app from node. Set up your RUST environment. Call all rust tool from single script. This helper may allow use RUST in Node hosting",
-  "version": "0.3.4",
-  "license": "MIT"
+  "version": "0.3.5",
+  "license": "MIT",
+  "keywords": [
+      "rustup-init",
+      "npx",
+      "rust",
+      "cargo",
+      "installer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerzyadamowski/rust-app.git"
+  }
 }
