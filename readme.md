@@ -1,11 +1,21 @@
-# rustup
-## Run rustup-init from node. Set up your RUST. This is helper for developing RUST in NODE friendly environment.
-run:
+# rust-app
+
+## Why?
+
+There isn't much more Rust hosting out there. I want to fast setup Rust-lang environment with problem any problems with exporting $PATH or repeating again same command to recover my application with all necessary installations. 
+
+For me its CI/CD heaven. Rust can be installed in the user space at linux vm. No need for sudo/root. If are looking for do it separately, this feature may not be required, but if you want do it in single run this may be great option.
+
+
+To install rust environment:
 ```
-npx rustup-init
+npx rust-app rustup-init
 ```
 
-help page:
+To call any command with the unlimited params:
 ```
-npx rustup-init --help
+npx rust-app cargo
+npx rust-app rustc -V
+npx rust-app rustup show
+...
 ```

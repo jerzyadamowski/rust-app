@@ -1,8 +1,8 @@
 {
-  "bin": "bin/rustup-wrapper.sh",
-  "name": "rustup-init",
+  "bin": "bin/rust-app.sh",
+  "name": "rust-app",
   "author": "Jerzy Adamowski",
-  "description": "Run rustup-init from node. Set up your RUST. This is helper for developing RUST in NODE friendly environment.",
-  "version": "0.2.0",
+  "description": "Run rust-app from node. Set up your RUST environment. Call all rust tool from single script. This helper may allow use RUST in Node hosting",
+  "version": "0.3.0",
   "license": "MIT"
 }
